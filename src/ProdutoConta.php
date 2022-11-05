@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace src\teste12;
+namespace src;
 
 interface ProdutoConta
 {

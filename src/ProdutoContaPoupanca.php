@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace src;
 
-class ProdutoContaCorrente implements ProdutoConta
+class ProdutoContaPoupanca implements ProdutoConta
 {
     protected string $banco;
     protected string $agencia;
@@ -30,7 +30,7 @@ class ProdutoContaCorrente implements ProdutoConta
     {
         return "__________ EXTRATO __________" . "<br><br>" .
         "Banco: " . $this->banco . "<br>" . 
-        "Tipo: " . ContaCorrente::TIPO_CONTA . "<br>" . 
+        "Tipo: " . ContaPoupanca::TIPO_CONTA . "<br>" . 
         "Agência: " . $this->agencia . "<br>" .
         "Titular: " . $this->nome . "<br>" . 
         "Cpf: " . $this->cpf . "<br>" . 
