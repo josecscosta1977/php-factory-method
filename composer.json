@@ -1,0 +1,15 @@
+{
+    "name": "carlos/php-factory-method",
+    "description": "Exemplo simples do uso de Factory Method pattern em Php",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "josecscosta1977",
+            "email": "josecscosta1977@gmail.com"
+        }
+    ]
+}
